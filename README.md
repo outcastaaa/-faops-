@@ -43,7 +43,7 @@ Options:
     Options *MUST* be placed just after command.
 ```
 ## 用法举例
-* 用cat把序列信息写入test.fa文件
+### 用cat把序列信息写入test.fa文件
 ```bash
 >1
 ACCCCAGGACTCCCGAGGGTGGCCTGAGGGGGTTCCGACTCCCTGTTCGTCGGGCATGCC
@@ -58,3 +58,12 @@ TCCTGCTTGGCTGCTCCTGTTTGTAGAGGTTTCCTTGCTGGGGAGGTAGGGAGGATGAGT
 TATTCCCGCTTCACTCTCTGGTCTTGTCTGTCCAAAAAGGAATCCATCTTCTCGCCCACT
 GCCTGCTTCCTCACCTGCCA
 ```
+1. count
+
+```bash
+xuruizhi@LAPTOP-VVGKELBI:~$ faops count test.fa
+#seq    len     A       C       G       T       N
+1       620     95      179     174     172     0
+total   620     95      179     174     172     0
+```
+
